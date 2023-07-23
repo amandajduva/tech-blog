@@ -4,3 +4,75 @@
     dark grey #636363
     light grey #a3a3a3
 */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dbebd4;
+    color: #241712;
+}
+
+.header {
+    display: inline-block;
+    width: 100%;
+    background-color: #241712;
+    padding: 25px;
+}
+
+.header-text {
+    color: #dbebd4;
+    background-color: #241712;
+}
+
+header nav {
+    background-color: #241712;
+    color: #dbebd4;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    background-color: #dbebd4;
+    color: #241712;
+    padding: 4px;
+    border-radius: 5px;
+    box-shadow: 10px 5px #a3a3a3;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.posts {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.post-heading {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #dbebd4;
+    background-color: #241712;
+}
+
+.post-body {
+    border: 3px solid #241712;
+}
+
+.no-button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: #dbebd4;
+    text-decoration: none;
+    font-size: 100%;
+  }
