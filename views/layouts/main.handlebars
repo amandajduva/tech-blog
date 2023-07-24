@@ -9,14 +9,16 @@
 </head>
 
 <body>
-    <div class="flex-column justify-space-around">
+    <div class="">
         <header class="header">
             <nav>
                 <!-- Conditionally render login or logout links -->
                 {{#if logged_in}}
-                <a href="/dashboard" class="header-text">Dashboard</a> |
+                <a href="/" class="header-text">Home</a>
+                <a href="/dashboard" class="header-text">Dashboard</a>
                 <button class="no-button" id="logout">Logout</button>
                 {{else}}
+                <a href="/" class="header-text">Home</a>
                 <a href="/login" class="header-text">Login</a>
                 {{/if}}
             </nav>

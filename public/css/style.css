@@ -8,6 +8,9 @@
     font-family: Arial, Helvetica, sans-serif;
     background-color: #dbebd4;
     color: #241712;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .header {
@@ -15,16 +18,19 @@
     width: 100%;
     background-color: #241712;
     padding: 25px;
+    margin: 10px;
 }
 
 .header-text {
     color: #dbebd4;
     background-color: #241712;
+    padding-right: 25px;
 }
 
 header nav {
     background-color: #241712;
     color: #dbebd4;
+    padding-bottom: 10px;
 }
 
 a {
@@ -35,8 +41,10 @@ h1 {
     background-color: #dbebd4;
     color: #241712;
     padding: 4px;
+    margin: 10px;
     border-radius: 5px;
-    box-shadow: 10px 5px #a3a3a3;
+    box-shadow: 5px 5px #a3a3a3;
+    max-width: 15rem;
 }
 
 .container {
@@ -48,8 +56,12 @@ h1 {
 .posts {
     margin-top: 15px;
     margin-bottom: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.title {
+    padding: 5px;
 }
 
 .post-heading {
@@ -65,6 +77,7 @@ h1 {
 
 .post-body {
     border: 3px solid #241712;
+    padding: 15px;
 }
 
 .no-button {
@@ -75,4 +88,84 @@ h1 {
     color: #dbebd4;
     text-decoration: none;
     font-size: 100%;
-  }
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.login {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 50%;
+}
+
+.signup {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 50%;
+}
+
+.form {
+    width: 100%;
+    border: 3px solid #241712;
+    padding: 15px;
+}
+
+.form-input {
+    min-width: 100%;
+    background-color: white;
+    color: #241712;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
+.heading {
+    padding: 10px;
+    color: #dbebd4;
+    background-color: #241712;
+}
+
+.btn {
+    width: 100%;
+    color: whitesmoke;
+    background-color: #636363;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 100%;
+    padding: 5px;
+}
+
+.text {
+    font-size: 15px;
+}
+
+.form-group {
+    padding-top: 5px;
+    margin: 1px;
+}
+
+@media screen and (max-width: 768px) {
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .login {
+        width: 100%;
+    }
+
+    .signup {
+        width: 100%;
+    }
+}

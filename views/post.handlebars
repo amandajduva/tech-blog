@@ -4,7 +4,7 @@
   <p>Created by {{user.username}} on {{format_date date_created}}</p>
 
 {{#if comments.length}}
-  <div class="col-md-6 project-list">
+  <div class="project-list">
     <h3>Comments:</h3>
 
     {{#each comments as |comment|}}
@@ -16,7 +16,7 @@
   </div>
   {{/if}}
 
-  <div class="col-md-6">
+  <div class="">
     <h3>Comment:</h3>
 
     <form class="form new-project-form">
