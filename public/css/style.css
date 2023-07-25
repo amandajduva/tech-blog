@@ -122,7 +122,8 @@ h1 {
     min-width: 100%;
     background-color: white;
     color: #241712;
-    border-radius: 5px;
+    border-radius: 3px;
+    border-color: white;
     padding-top: 10px;
 }
 
@@ -151,6 +152,23 @@ h1 {
 .form-group {
     padding-top: 5px;
     margin: 1px;
+}
+
+.add-comment {
+    margin-top: 10px;
+}
+
+.buffer {
+    padding-top: 5px;
+}
+
+.credit {
+    padding-left: 9px;
+}
+
+.spacer {
+    padding-top: 3px;
+    padding-bottom: 2px;
 }
 
 @media screen and (max-width: 768px) {
