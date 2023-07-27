@@ -26,9 +26,13 @@
         <label for="project-desc"></label>
         <textarea class="form-input comment-input" id="project-desc" name="project-desc"></textarea>
       </div>
+        <input type="hidden" id="userId" name="userId" value="{{user.id}}">
+        <input type="hidden" id="postId" name="postId" value="{{id}}">
       <div class="form-group">
-        <button type="submit" class="btn comment-btn">Submit</button>
+        <button type="click" class="btn comment-btn">Submit</button>
       </div>
     </form>
   </div>
 </div>
+
+<script src="/js/comment.js"></script>
