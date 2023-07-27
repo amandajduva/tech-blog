@@ -145,8 +145,20 @@ h1 {
     padding: 5px;
 }
 
+.delete-btn {
+    width: 100%;
+    color: whitesmoke;
+    background-color: #241712;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 100%;
+    padding: 5px;
+}
+
 .text {
-    font-size: 15px;
+    font-size: 100%;
 }
 
 .form-group {
