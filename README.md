@@ -5,7 +5,7 @@ A CMS-style blog site, where developers can publish their blog posts and comment
 
 To use this project, you will need Node.js, Express.js, express-handlebars, MySQL2, Sequelize, dotenv, bcrypt, express-session, and connect-session-sequelize. Please be sure to start the database by running SOURCE schema.sql before staring the server. You may also seed the database with the existing seeds files of dummy data to create existing posts. Please follow the instructions on this [GitHub Repository](https://github.com/femke77/seeds.git) to correctly use the provided seeding with fakerjs. To start the server, run node server.js or npm run start. 
 
-Link to the [deployed application](). 
+Link to the [deployed application](https://desolate-forest-87014-6a91b6febab4.herokuapp.com/). 
 
 Screenshot of deployed application:
 ![deployed application]()
