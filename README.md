@@ -8,7 +8,7 @@ To use this project, you will need Node.js, Express.js, express-handlebars, MySQ
 Link to the [deployed application](https://desolate-forest-87014-6a91b6febab4.herokuapp.com/). 
 
 Screenshot of deployed application:
-![deployed application]()
+![deployed application](./public/images/tech-blog-screenshot.png)
 
 ## Credits
 
