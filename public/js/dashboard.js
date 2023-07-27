@@ -1,7 +1,6 @@
 
 async function newPostHandler(event) {
     event.preventDefault()
-    console.log("clicked")
     const title = document.getElementById("project-name").value.trim()
     const description = document.getElementById("project-desc").value.trim()
 
